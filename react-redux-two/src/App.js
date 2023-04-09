@@ -1,13 +1,12 @@
-import ChangeDate from './ChangeDate';
-// import ReducerEx from "./ReducerEx";
+import ChangeDate from "./hooks/ChangeDate";
+import ReducerEx from "./hooks/ReducerEx";
 
 function App() {
-
   return (
     <div>
       <ChangeDate />
       <ChangeDate />
-      {/* <ReducerEx /> */}
+      {false && <ReducerEx />}
     </div>
   );
 }
